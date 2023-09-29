@@ -2,12 +2,12 @@ require("dotenv").config();
 
 module.exports = {
   urlObject: {
-    IREvSA: "https://tickets.rugbyworldcup.com/en/resale_south_africa_ireland",
-    IREvSCOT: "https://tickets.rugbyworldcup.com/en/resale_ireland_scotland",
+    IREvSA: "https://tickets.rugbyworldcup.com/en",
+    IREvSCOT: "https://tickets.rugbyworldcup.com/en",
     IRE_QF_IF_WE_TOP_GROUP:
-      "https://tickets.rugbyworldcup.com/en/resale_quarter_final2",
+      "https://tickets.rugbyworldcup.com/en",
     IRE_QF_IF_WE_COME_2ND_IN_GROUP:
-      "https://tickets.rugbyworldcup.com/en/resale_quarter_final4",
+      "https://tickets.rugbyworldcup.com/en",
   },
   delay: 60000,
   telegram: {
